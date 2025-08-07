@@ -2,15 +2,20 @@
 const BotonMultiuso = (props) => {
 
     const styles = {
-        
-        backgroundColor: props.color,
 
+        backgroundColor: props.color,
         color: 'black',
-        border: 'none'
+        border: 'none',
+        borderRadius: props.borderRadius,
+        padding: props.padding
+    }
+
+    const handler = () => {
+        props.parametrosConEventos('Milanesa con papas')
     }
 
     return (
-        <button style={styles}>Click!</button>
+        <button style={styles} onClick={handler}>Click!</button>
     )
 }
 
