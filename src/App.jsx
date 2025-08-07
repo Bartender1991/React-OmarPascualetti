@@ -2,8 +2,15 @@ import './App.css'
 import NavBar from './components/NavBar'
 
 import ItemCount from './components/ItemCount'
+import ItemListContainer from './components/ItemListContainer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBarBS from './components/NavBarBS';
+
+
 
 function App() {
+
+  console.log('app')
 
   const saludar = () => {
     console.log('Hola Chicos!')
@@ -24,28 +31,11 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemCount />
+      <NavBarBS />
+      <ItemListContainer mensaje='Bienvenidos a mi app'/>
 
-      {/* voy por la 2.29 hs del video  */}
-
-      {/* <BotonMultiuso color={"yellow"} padding={"1rem"} borderRadius={"10%"} onClickHandler={saludar} />
-      <BotonMultiuso color={"red"} padding={"0.5rem"} borderRadius={"10%"} onClickHandler={despedir} />
-      <BotonMultiuso color={"#0dff00ff"} padding={"1.5rem"} borderRadius={"10%"} onClickHandler={log} />
-
-      <ComponenteConChildren />
-
-      <ComponenteConChildren>
-        <p>hola soy una children</p>
-
-        <BotonMultiuso
-          color={"#0dff00ff"}
-          padding={"1.5rem"}
-          borderRadius={"10%"}
-          onClickHandler={log} />
-
-        <BotonMultiuso color={"#0dff00ff"} padding={"1.5rem"} borderRadius={"10%"} onClickHandler={log} parametrosConEventos={parametrosConEventos} />
-      </ComponenteConChildren> */}
     </>
+
   )
 }
 

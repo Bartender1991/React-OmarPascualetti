@@ -1,15 +1,16 @@
 import { useState } from "react"
 const ItemCount = () => {
-    const [count, setCount] = useState(0)
-
+const [count, setCount] = useState(0)
+    
     const sumar = () => {
         setCount(count + 1)
     }
-
+    
     const restar = () => {
         setCount(count - 1)
     }
-
+    
+    console.log('itemCount')
     return (
         <div>
             <button onClick={restar}>-</button>
