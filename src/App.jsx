@@ -12,28 +12,27 @@ function App() {
 
   console.log('app')
 
-  const saludar = () => {
-    console.log('Hola Chicos!')
-  }
+  // const saludar = () => {
+  //   console.log('Hola Chicos!')
+  // }
 
-  const despedir = () => {
-    console.log('Adios Chicos!')
-  }
+  // const despedir = () => {
+  //   console.log('Adios Chicos!')
+  // }
 
-  const log = () => {
-    console.log('click!')
-  }
+  // const log = () => {
+  //   console.log('click!')
+  // }
 
-  const parametrosConEventos = (text) => {
-    console.log(text)
-  }
+  // const parametrosConEventos = (text) => {
+  //   console.log(text)
+  // }
 
   return (
     <>
-      <NavBar />
       <NavBarBS />
       <ItemListContainer mensaje='Bienvenidos a mi app'/>
-
+      {/* <ItemCount/> */}
     </>
 
   )
