@@ -5,7 +5,7 @@ const productos = [
         category: "Computadoras",
         price: 15.00,
         stock: 5,
-        img: "img/laptop-dell-inspiron-15.jpg",
+        img: "https://i.postimg.cc/qMRyKB0C/laptop-dell-inspiron-15.jpg",
         description: "Laptop con procesador Intel Core i5, 8GB de RAM y SSD de 256GB."
     },
     {
@@ -14,7 +14,7 @@ const productos = [
         category: "Periféricos",
         price: 10.00,
         stock: 7,
-        img: "img/teclado-redragon-kumara.jpg",
+        img: "https://i.postimg.cc/65g2GdYD/teclado-redragon-kumara.jpg",
         description: "Teclado mecánico compacto con retroiluminación RGB."
     },
     {
@@ -23,7 +23,7 @@ const productos = [
         category: "Periféricos",
         price: 59.70,
         stock: 2,
-        img: "img/mouse-logitech-g502.jpg",
+        img: "https://i.postimg.cc/QMpTDHgv/mouse-logitech-g502.jpg",
         description: "Mouse gamer de alto rendimiento con 11 botones programables."
     },
     {
@@ -32,7 +32,7 @@ const productos = [
         category: "Monitores",
         price: 179.68,
         stock: 25,
-        img: "img/monitor-samsung-curvo-24.jpg",
+        img: "https://i.postimg.cc/QdK766F8/monitor-samsung-curvo-24.jpg",
         description: "Monitor curvo Full HD de 24 pulgadas con tecnología VA."
     },
     {
@@ -41,7 +41,7 @@ const productos = [
         category: "Almacenamiento",
         price: 39.99,
         stock: 100,
-        img: "img/ssd-kingston-480gb.jpg",
+        img: "https://i.postimg.cc/cC5KhYZt/ssd-kingston-480gb.jpg",
         description: "Unidad de estado sólido SATA III con velocidad de lectura de 500MB/s."
     },
     {
@@ -50,7 +50,7 @@ const productos = [
         category: "Componentes",
         price: 69.99,
         stock: 60,
-        img: "img/ram-corsair-16gb.jpg",
+        img: "https://i.postimg.cc/V6g0SpVR/ram-corsair-16gb.jpg",
         description: "Memoria RAM DDR4 de alto rendimiento a 3200MHz."
     },
     {
@@ -59,7 +59,7 @@ const productos = [
         category: "Componentes",
         price: 349.79,
         stock: 20,
-        img: "img/gpu-rtx-3060.jpg",
+        img: "https://i.postimg.cc/26DnL48z/gpu-rtx-3060.jpg",
         description: "Tarjeta gráfica con 12GB GDDR6, ideal para gaming y diseño."
     },
     {
@@ -68,7 +68,7 @@ const productos = [
         category: "Componentes",
         price: 49.99,
         stock: 30,
-        img: "img/fuente-evga-600w.jpg",
+        img: "https://i.postimg.cc/0Q0DYbb7/fuente-evga-600w.jpg",
         description: "Fuente de alimentación certificada 80+ Bronze para PC de escritorio."
     },
     {
@@ -77,7 +77,7 @@ const productos = [
         category: "Componentes",
         price: 89.99,
         stock: 15,
-        img: "img/gabinete-nzxt-h510.jpg",
+        img: "https://i.postimg.cc/FKcjKPvW/gabinete-nzxt-h510.jpg",
         description: "Gabinete ATX minimalista con panel lateral de vidrio templado."
     },
     {
@@ -86,7 +86,7 @@ const productos = [
         category: "Redes",
         price: 129.90,
         stock: 18,
-        img: "img/router-tplink-ax50.jpg",
+        img: "https://i.postimg.cc/VvNrX4yc/router-tplink-ax50.jpg",
         description: "Router Wi-Fi 6 de doble banda con velocidades de hasta 3Gbps."
     },
     {
@@ -95,7 +95,7 @@ const productos = [
         category: "Audio",
         price: 79.99,
         stock: 35,
-        img: "img/auriculares-hyperx-cloud-ii.jpg",
+        img: "https://i.postimg.cc/dVg2vbbZ/auriculares-hyperx-cloud-ii.jpg",
         description: "Auriculares gamer con sonido envolvente 7.1 y micrófono desmontable."
     },
     {
@@ -104,7 +104,7 @@ const productos = [
         category: "Audio",
         price: 99.91,
         stock: 25,
-        img: "img/microfono-blue-yeti.jpg",
+        img: "https://i.postimg.cc/CLQDsyLr/microfono-blue-yeti.jpg",
         description: "Micrófono de condensador USB ideal para streaming y grabaciones."
     },
     {
@@ -113,7 +113,7 @@ const productos = [
         category: "Impresoras",
         price: 69.99,
         stock: 22,
-        img: "img/impresora-hp-deskjet-3775.jpg",
+        img: "https://i.postimg.cc/9X1yzw3h/impresora-hp-deskjet-3775.jpg",
         description: "Impresora multifunción compacta con conectividad Wi-Fi."
     },
     {
@@ -122,7 +122,7 @@ const productos = [
         category: "Tablets",
         price: 249.94,
         stock: 8,
-        img: "img/tablet-samsung-galaxy-s6-lite.jpg",
+        img: "https://i.postimg.cc/TYp5wkqV/tablet-samsung-galaxy-s6-lite.jpg",
         description: "Tablet de 10.4 pulgadas con S Pen incluido."
     },
     {
@@ -131,7 +131,7 @@ const productos = [
         category: "Cámaras",
         price: 79.99,
         stock: 40,
-        img: "img/webcam-logitech-c920.jpg",
+        img: "https://i.postimg.cc/L8PqknWh/webcam-logitech-c920.jpg",
         description: "Cámara web Full HD con enfoque automático y micrófono estéreo."
     },
     {
@@ -140,7 +140,7 @@ const productos = [
         category: "Accesorios",
         price: 19.99,
         stock: 80,
-        img: "img/hub-usb-3.jpg",
+        img: "https://i.postimg.cc/qqmKFScR/hub-usb-3.jpg",
         description: "Hub USB compacto con 4 puertos y transferencia rápida."
     },
     {
@@ -149,7 +149,7 @@ const productos = [
         category: "Almacenamiento",
         price: 69.99,
         stock: 50,
-        img: "img/hdd-seagate-2tb.jpg",
+        img: "https://i.postimg.cc/0j5mcPwF/hdd-seagate-2tb.jpg",
         description: "Disco duro externo portátil USB 3.0 de 2TB."
     },
     {
@@ -158,7 +158,7 @@ const productos = [
         category: "Proyectores",
         price: 449.99,
         stock: 12,
-        img: "img/proyector-epson-x49.jpg",
+        img: "https://i.postimg.cc/qR4Cv4jq/proyector-epson-x49.jpg",
         description: "Proyector XGA con 3600 lúmenes y conectividad HDMI."
     },
     {
@@ -167,7 +167,7 @@ const productos = [
         category: "Wearables",
         price: 149.99,
         stock: 30,
-        img: "img/smartwatch-amazfit-gts2.jpg",
+        img: "https://i.postimg.cc/66HGBsR6/smartwatch-amazfit-gts2.jpg",
         description: "Reloj inteligente con GPS, monitor de frecuencia cardíaca y oxígeno."
     },
     {
@@ -176,7 +176,7 @@ const productos = [
         category: "Accesorios",
         price: 39.99,
         stock: 70,
-        img: "img/powerbank-xiaomi-20000.jpg",
+        img: "https://i.postimg.cc/N0hHZ1X1/powerbank-xiaomi-20000.jpg",
         description: "Batería portátil de gran capacidad con carga rápida."
     }
 ]
