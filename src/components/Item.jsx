@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 function Item({ prod }) {
     return (
@@ -14,9 +15,9 @@ function Item({ prod }) {
                 <Card.Text>${prod.price}</Card.Text>
 
                 {/* El margin-top-auto empuja el botón al fondo */}
-                <Button variant="primary" className="mt-auto">
-                    Ver más
-                </Button>
+                {/* <Button variant="primary" className="mt-auto">Ver más</Button> */}
+                {/* <Link className='btn btn-primary mt-auto' to={'/item/' + prod.id} >Ver más</Link> */}
+                <Link className='btn btn-primary mt-auto' to={`/item/${prod.id}`} >Ver más</Link>
             </Card.Body>
         </Card>
     );
